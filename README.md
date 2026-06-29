@@ -8,7 +8,7 @@ A real-time computer vision and robotic manipulation pipeline developed for high
 
 ### 1. Spatiotemporal Predictive Interception
 Instead of reactively diving toward where an object is located in the *current* frame, the tracking script functions as a feed-forward predictive gate:
-* **Least-Squares Linear Regression:** An internal velocity estimator tracks target displacements across a stable frame moving window to deduce live belt velocity and a down-to-the-millisecond Time of Arrival (`eta`).
+* **Least-Squares Linear Regression:** An internal velocity estimator tracks target displacements across a stable frame moving window to deduce live belt velocity and an Estimated Time of Arrival (`eta`).
 * **Early-Launch Execution:** The robot prepositions itself over the belt line early. Because physical joint transitions carry a fixed hardware execution deadline the plunge is triggered *exactly* when eta is lower than a predetermined threshold, calculating a precise downstream interception intercept point.
 
 ### 2. Custom Gripper P-Controller

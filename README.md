@@ -26,7 +26,7 @@ Utilizes a calibrated, non-skewed orthogonal spatial transformation matrix mappi
 * **Depth Camera:** Intel RealSense D456 
 * **Environment:** Conveyor belt platform configured with an active tracking axis ($Y$-axis configuration).
 
-## Tech Stack
+## Technical Specifications
 * **Language:** Python 
 * **Robotics Middleware:** ROS 2 Humble via `rclpy`, `interbotix_xs_modules`
 * **Computer Vision:** OpenCV (`cv2`), PyRealSense2 (`pyrealsense2`)

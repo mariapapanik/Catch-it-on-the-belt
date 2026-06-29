@@ -1,6 +1,6 @@
 # Catch-it-on-the-belt
 
-An real-time computer vision and robotic manipulation pipeline developed for high-speed conveyor belt sorting. This system integrates an **Interbotix ViperX-300 (5DOF)** manipulator with an **Intel RealSense D456** depth camera using ROS 2 (`rclpy`) and OpenCV to execute predictive, spatiotemporal interceptions of moving targets.
+A real-time computer vision and robotic manipulation pipeline developed for high-speed conveyor belt sorting. This system integrates an **Interbotix ViperX-300 (5DOF)** manipulator with an **Intel RealSense D456** depth camera using ROS 2 (`rclpy`) and OpenCV to execute predictive, spatiotemporal interceptions of moving targets.
 
 ---
 
